@@ -1,0 +1,47 @@
+# Android Studio generated files
+.gradle/                 # Gradle 缓存和构建相关文件
+/local.properties        # 本地SDK路径等配置，通常每个开发者不同
+/.idea/workspace.xml     # IDE 工作区状态，用户个人设置
+/.idea/libraries/        # IDE 库索引文件
+.DS_Store
+/build/                  # Android 项目的主要构建输出目录
+/captures/               # 性能分析器捕获的文件
+.externalNativeBuild/    # NDK/CMake 编译产物
+.cxx/                    # NDK/CMake 编译产物
+*.iml                    # IntelliJ IDEA / Android Studio 模块文件
+*.ipr
+*.iws
+local.properties
+.bundle/
+
+# Gradle specific
+gradlew                  # Gradle Wrapper 脚本 (Linux/macOS)
+gradlew.bat              # Gradle Wrapper 脚本 (Windows)
+/gradle/wrapper/gradle-wrapper.jar # Gradle Wrapper Jar 包
+
+# Android specific (เพิ่มเติม)
+/lint-results.html
+/lint-results.xml
+/release/                # 发布版 APK/AAB 目录
+/debug/                  # 调试版 APK/AAB 目录
+/proguard/               # ProGuard/R8 映射文件
+/ndk-build/
+/cmake/
+
+# Kotlin specific
+*.kpt
+*.kpf
+*.kotlin_module
+
+# Local configuration files (e.g. sensitive data for CI/CD or signing)
+/key.properties          # 签名密钥配置
+/keystore.jks            # 签名密钥文件
+*.jks
+*.keystore
+
+# Other temporary files
+*.jardiff
+*.log
+
+# Crashlytics/Firebase Crash Reporting (如果有集成)
+crashlytics-build.properties
